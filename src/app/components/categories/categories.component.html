@@ -1,0 +1,14 @@
+<section class="categories">
+  <h2>Popular Categories</h2>
+
+  <div class="category-container">
+    <div
+      class="card"
+      *ngFor="let category of categories"
+      (click)="selectCategory(category.name)"
+      style="cursor: pointer;"
+    >
+      <h3>{{ category.icon }} {{ category.name }}</h3>
+    </div>
+  </div>
+</section>

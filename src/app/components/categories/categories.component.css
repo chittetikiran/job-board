@@ -1,0 +1,57 @@
+.categories{
+
+    padding:60px;
+
+    text-align:center;
+
+}
+
+.categories h2{
+
+    margin-bottom:40px;
+
+    color:#1e3a8a;
+
+}
+
+.category-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.card{
+
+    width:180px;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    background:white;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+    transition:0.3s;
+
+    cursor:pointer;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.card h3{
+
+    color:#2563eb;
+
+}

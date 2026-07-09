@@ -1,0 +1,76 @@
+.hero{
+    background: linear-gradient(135deg, #eff6ff, #dbeafe);
+    padding: 90px 20px;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 52px;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hero p{
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: fit-content;
+    margin: auto;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.search-container input{
+    width: 350px;
+    padding: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-container input:focus{
+    border-color: #2563eb;
+    box-shadow: 0 0 8px rgba(37,99,235,0.3);
+}
+
+.search-container select{
+    width: 220px;
+    padding: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-container select:focus{
+    border-color: #2563eb;
+}
+
+.search-container button{
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.search-container button:hover{
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}

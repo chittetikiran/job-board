@@ -1,0 +1,33 @@
+<section class="home-page">
+  <div class="hero-card">
+    <h1>Welcome to GLOBALCO Jobs</h1>
+    <p>Find the right opportunity faster with curated roles, smart search, and trusted employers.</p>
+  </div>
+
+  <div class="stats">
+    <div class="stat-card">
+      <h3>500+</h3>
+      <p>Active job listings</p>
+    </div>
+    <div class="stat-card">
+      <h3>120+</h3>
+      <p>Hiring companies</p>
+    </div>
+    <div class="stat-card">
+      <h3>24/7</h3>
+      <p>Applicant support</p>
+    </div>
+  </div>
+
+  <div class="feature-list">
+    <div class="feature-item" *ngFor="let item of highlights">
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.description }}</p>
+    </div>
+  </div>
+
+  <app-hero></app-hero>
+  <app-job-card></app-job-card>
+  <app-categories></app-categories>
+  <app-why-choose-us></app-why-choose-us>
+</section>

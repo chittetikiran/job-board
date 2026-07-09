@@ -1,0 +1,29 @@
+<section class="hero">
+
+    <h1>Find Your Dream Job Today 🚀</h1>
+
+    <p>
+        Search by title, company or keyword
+    </p>
+
+    <div class="search-container">
+      <input
+        type="text"
+        [(ngModel)]="searchTerm"
+        placeholder="Search by Job Title, Skills or Company"
+        (keyup.enter)="onSearch()"
+      />
+
+      <select [(ngModel)]="selectedCategory">
+        <option *ngFor="let category of categories" [value]="category">
+          {{ category }}
+        </option>
+      </select>
+
+      <button type="button" (click)="onSearch()">🔍 Search</button>
+
+    </div>
+
+
+
+</section>

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Java Developer",
+    "company": "ABC Technologies",
+    "location": "Hyderabad",
+    "salary": "₹8-12 LPA",
+    "type": "Full Time",
+    "skills": ["Java", "Spring Boot", "Angular"]
+  },
+  {
+    "id": 2,
+    "title": "Angular Developer",
+    "company": "XYZ Solutions",
+    "location": "Bangalore",
+    "salary": "₹10-15 LPA",
+    "type": "Remote",
+    "skills": ["Angular", "TypeScript", "Bootstrap"]
+  },
+  {
+    "id": 3,
+    "title": "React Frontend Developer",
+    "company": "TechNova Solutions",
+    "location": "Chennai",
+    "salary": "₹9-14 LPA",
+    "type": "Hybrid",
+    "skills": ["React", "JavaScript", "HTML", "CSS"]
+  }
+]

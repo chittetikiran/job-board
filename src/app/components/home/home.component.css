@@ -1,0 +1,77 @@
+.home-page {
+  padding: 2rem 1.5rem 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #f8fbff 0%, #eef4ff 100%);
+  border-radius: 24px;
+}
+
+.hero-card {
+  background: linear-gradient(135deg, #0f172a, #2563eb, #3b82f6);
+  color: white;
+  padding: 2.2rem;
+  border-radius: 24px;
+  margin-bottom: 2rem;
+  box-shadow: 0 15px 35px rgba(37, 99, 235, 0.25);
+}
+
+.hero-card h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.7rem;
+}
+
+.hero-card p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 700px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.stat-card {
+  background: white;
+  color: #0f172a;
+  padding: 1.2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+  border: 1px solid #e2e8f0;
+}
+
+.stat-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+  color: #2563eb;
+}
+
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.feature-item {
+  border: 1px solid #dbeafe;
+  border-radius: 16px;
+  padding: 1.1rem;
+  background: linear-gradient(135deg, #ffffff, #f8fbff);
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.08);
+}
+
+.feature-item h3 {
+  color: #1d4ed8;
+  margin-bottom: 0.4rem;
+}
+
+app-hero,
+app-job-card,
+app-categories,
+app-why-choose-us {
+  display: block;
+  margin-top: 1.5rem;
+}
