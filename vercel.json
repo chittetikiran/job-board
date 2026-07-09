@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build -- --configuration production",
+  "outputDirectory": "dist/ai-job-board",
+  "env": {
+    "ANGULAR_ENVIRONMENT": "production"
+  },
+  "routes": [
+    {
+      "src": "^/assets/(.*)",
+      "dest": "/assets/$1",
+      "headers": {
+        "Cache-Control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "src": "^(?!.*\\.\\w+$)(?!\\.well-known(/|$))(.*)",
+      "dest": "/index.html",
+      "status": 200
+    }
+  ]
+}
